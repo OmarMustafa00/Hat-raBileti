@@ -23,7 +23,7 @@ const generatePDF = async (name)=>{
         y: 50,
         size: 40,
         font: myFont,
-        color:rgb(255,255,255),
+        color:rgb(0,0,0),
       });
 
     const uri = await pdfDoc.saveAsBase64({ dataUri: true });
