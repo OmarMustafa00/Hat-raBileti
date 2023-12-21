@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NSWYTQK45"></script>
+    <script>
+       window.dataLayer = window.dataLayer || [];
+       function gtag(){dataLayer.push(arguments);}
+       gtag('js', new Date());
+       gtag('config', 'G-9NSWYTQK45');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gençlik Festivali Hatıra Bileti </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header> 
+        <h4> Genç Yetenekler Festivali </h4>
+        <h1> Hatıra Bileti </h1>
+    </header>
+    <main>
+        <label for=""></label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="İsim Soyisim" id="name" minlength="3"
+        maxlength="16">
+        <button id="submitBtn"> Hatıra Bileti Al  </button>
+    </main>
+    
+    <iframe src="" id="mypdf" height="500px" width="500px" frameborder="0"></iframe>
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js" ></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit" ></script>
+    <script src="./FileSaver.js"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
