@@ -2,7 +2,7 @@
 const generatePDF = async (name)=>{
     const {PDFDocument, rgb } = PDFLib;
 
-    const exBytes = await fetch("./cert2.pdf").then((res) => {
+    const exBytes = await fetch("./cert.pdf").then((res) => {
         return res.arrayBuffer();
     });
 
