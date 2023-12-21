@@ -20,8 +20,8 @@ const generatePDF = async (name)=>{
 
     firstPage.drawText(name, {
         x: 50,
-        y: 50,
-        size: 40,
+        y: 30,
+        size: 25,
         font: myFont,
         color:rgb(0,0,0),
       });
